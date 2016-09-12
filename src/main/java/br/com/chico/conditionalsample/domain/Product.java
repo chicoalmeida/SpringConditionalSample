@@ -1,6 +1,5 @@
 package br.com.chico.conditionalsample.domain;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
