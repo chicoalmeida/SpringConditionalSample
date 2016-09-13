@@ -33,6 +33,6 @@ public class DevDataConditionTest {
         assertNotNull(service);
         Collection<Product> products = service.getProducts();
 
-        assertThat(products.size(), is(2));
+        assertThat(products.size(), is(3));
     }
 }
