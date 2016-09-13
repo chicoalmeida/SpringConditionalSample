@@ -17,7 +17,7 @@ public class ProductService {
         this.employeeDAO = employeeDAO;
     }
 
-    public Collection<Product> getEmployeeDetails() {
+    public Collection<Product> getProducts() {
         return employeeDAO.getProducts();
     }
 

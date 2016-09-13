@@ -17,7 +17,7 @@ public class ProductConfig {
     protected DataSource<Product> dataSource;
 
     @Bean
-    public ProductService employeeService() {
+    public ProductService productService() {
         return new ProductService(productDAO());
     }
 
