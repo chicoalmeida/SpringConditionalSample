@@ -6,10 +6,12 @@ import br.com.chico.conditionalsample.service.ProductService;
 import br.com.chico.conditionalsample.util.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by francisco.almeida on 9/13/16.
  */
+@Configuration
 public class ProductConfig {
     @Autowired
     protected DataSource<Product> dataSource;

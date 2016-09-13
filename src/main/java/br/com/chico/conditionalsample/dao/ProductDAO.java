@@ -2,6 +2,7 @@ package br.com.chico.conditionalsample.dao;
 
 import br.com.chico.conditionalsample.domain.Product;
 import br.com.chico.conditionalsample.util.DataSource;
+import org.springframework.stereotype.Component;
 
 import java.util.Collection;
 
